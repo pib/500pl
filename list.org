@@ -3,6 +3,9 @@
 ** Links
    [[http://www.aplusdev.org/][A+ Development.org]]
    [[http://en.wikipedia.org/wiki/A%2B_(programming_language)][A+ Wikipedia]]
+** Related Languages
+   [[* APL]]
+   [[* K]]
 
 * A++ -- Abstraction Plus Reference Plus Synthesis
 ** Links
@@ -10,7 +13,7 @@
    [[http://en.wikipedia.org/wiki/A%2B%2B][A++ Wikipedia]]
    [[http://www.aplusplus.net/bookonl/][A++ Book Online]]
 ** Related Languages
-   ARS++
+   [[* ARS]]
 
 * A# (.NET)
   Ada port to the .NET platform
@@ -18,26 +21,89 @@
    [[http://asharp.martincarlisle.com/][A# Home Page]]
    [[http://en.wikipedia.org/wiki/A_Sharp_(.NET)][A# Wikipedia]]
 ** Related Languages
-   Ada
+   [[* Ada]]
 
 * A# (Axiom)
 ** Links
    [[http://en.wikipedia.org/wiki/A_Sharp_(Axiom)][A# Wikipedia]]
 ** Related Languages
-   Aldor
+   [[* Aldor]]
 
 * A-0
   A-0 was "the first compiler ever developed for an electronic computer."
 ** Links
    [[http://en.wikipedia.org/wiki/A-0_(programming_language)][A-0 Wikipedia]]
 ** Related Languages
-   A-1
-   A-2
-   A-3 (ARITH-MATIC)
-   AT-3 (MATH-MATIC)
-   B-0 (FLOW-MATIC)
+   [[* A-1]]
+   [[* A-2]]
+   [[* A-3 (ARITH-MATIC)]]
+   [[* AT-3 (MATH-MATIC)]]
+   [[* B-0 (FLOW-MATIC)]]
 
+* ABAP
+  Advanced Business Application Programming, originally Allgemeiner
+  Berichts-Aufbereitungs-Prozessor, German for "general report
+  creation processor"
+** Links
+   [[http://en.wikipedia.org/wiki/ABAP][ABAP Wikipedia]]
+** Related Languages
+   [[* Objective-C]]
+   [[* COBOL]]
 
+* ABC
+  Precursor to/Inspiration for Python
+** Links
+   [[http://idhub.com/abc/][ABC Programmers Handbook + source code]]
+   [[http://homepages.cwi.nl/~steven/abc/][A Short Introduction to the ABC Language]]
+   [[http://en.wikipedia.org/wiki/ABC_(programming_language)][ABC Wikipedia]]
+** Related Languages
+   [[* SETL]]
+   [[* Python]]
+
+* ABC Algol
+** Links
+   [[http://en.wikipedia.org/wiki/ABC_ALGOL][ABC Algol Wikipedia]]
+** Related Languages
+   [[* Algol]]
+
+* ABLE
+** Links
+   [[http://en.wikipedia.org/wiki/ABLE_(programming_language)][ABLE Wikipedia]]
+
+* ABSET
+** Links
+   [[http://en.wikipedia.org/wiki/ABSET][ABSET Wikipedia Page]]
+** Related Languages
+   [[* ABSYS]]
+
+* ABSYS
+** Links
+   [[http://en.wikipedia.org/wiki/ABSYS][ABSYS Wikipedia]]
+** Related Languages
+   [[* ABSET]]
+
+* ACC
+** Links
+   [[http://en.wikipedia.org/wiki/ACC_(programming_language)][ACC Wikipedia]]
+** Related Languages
+   [[* C]]
+
+* ACCENT
+** Links
+   [[http://accent.compilertools.net/][ACCENT Compiler]]
+   [[http://en.wikipedia.org/wiki/Accent_(programming_language)][ACCENT Wikipedia]]
+
+* ActFX
+  Trading Scripting language?
+** Links
+   [[http://help.sysfx.com/documents/traders_manual/10.4/en_US/index.html?actfx.htm][ActFX Manual]]
+
+* ActionScript
+** Links
+   [[http://en.wikipedia.org/wiki/ActionScript][ActionScript Wikipedia]]
+** Related Languages
+   [[* ECMAScript]]
+   [[* JavaScript]]
 
 * Aldor
 ** Links
@@ -48,4 +114,4 @@
 ** Links
    [[http://en.wikipedia.org/wiki/ARS_plusplus][ARS++ Wikipedia]]
 ** Related Languages
-   A++
+   [[* A++]]
