@@ -18,7 +18,7 @@
 * A# (.NET)
   Ada port to the .NET platform
 ** Links
-   [[http://asharp.martincarlisle.com/][A# Home Page]]
+   [[http://asharp.martincarlisle.com/][A# home page]]
    [[http://en.wikipedia.org/wiki/A_Sharp_(.NET)][A# Wikipedia]]
 ** Related Languages
    [[* Ada]]
@@ -105,13 +105,264 @@
    [[* ECMAScript]]
    [[* JavaScript]]
 
+* Ace DASL
+** Links
+   [[http://research.sun.com/projects/ace/][Ace home page]]
+   [[http://en.wikipedia.org/wiki/DASL_-_Distributed_Application_Specification_Language][DASL Wikipedia]]
+
+* ACT-III
+** Links
+   [[http://en.wikipedia.org/wiki/LGP-30#ACT-III_programming_language][ACT-III Wikipedia]]
+
+* Ada
+** Links
+   [[http://en.wikipedia.org/wiki/Ada_(programming_language)][Ada Wikipedia]]
+** Related Languages
+   [[* ALGOL]]
+   [[* Pascal]]
+   [[* C++]]
+   [[* Smalltalk]]
+   [[* Java]]
+   [[* Eiffel]]
+   [[* PL/SQL]]
+   [[* VHDL]]
+   [[* Ruby]]
+
+* Afnix
+** Links
+   [[http://www.afnix.org/][Afnix home page]]
+   [[http://en.wikipedia.org/wiki/Afnix][Afnix Wikipedia]]
+
 * Aldor
 ** Links
-   [[http://www.aldor.org/][Aldor Home Page]]
+   [[http://www.aldor.org/][Aldor home page]]
    [[http://en.wikipedia.org/wiki/Aldor_programming_language][Aldor Wikipedia]]
+
+* ALGOL
+** Links
+   [[http://en.wikipedia.org/wiki/ALGOL][ALGOL Wikipedia]]
+** Related Languages
+   [[* ISWIM]]
+
+* APL
+** Links
+   [[http://en.wikipedia.org/wiki/APL_(programming_language)][APL Wikipedia]]
+** Related Languages
+   [[* J]]
+   [[* K]]
+   [[* Nial]]
+   [[* PPL]]
+
+* AppleScript
+** Links
+   [[http://developer.apple.com/applescript/][AppleScript home page]]
+   [[http://en.wikipedia.org/wiki/AppleScript][AppleScript Wikipedia]]
+
+* Amiga E
+** Links
+   [[http://strlen.com/e/][Amiga E home page]]
+   [[http://en.wikipedia.org/wiki/AmigaE][Amiga E Wikipedia]]
+
+* AMOS
+** Links
+   [[http://en.wikipedia.org/wiki/AMOS_(programming_language)][AMOS Wikipedia]]
+
+* ARB
+** Links
+   [[http://www.dmoz.org/Computers/Programming/Languages/ARB/][Open Directory: ARB]]
+   [[http://www.google.com/Top/Computers/Programming/Languages/ARB/][Google Directory: ARB]]
+
+* Arc
+** Links
+   [[http://arclanguage.org/][Arc home page]]
+   [[http://en.wikipedia.org/wiki/Arc_(programming_language)][Arc Wikipedia]]
+** Related Languages
+   [[* LISP]]
 
 * ARS++
 ** Links
    [[http://en.wikipedia.org/wiki/ARS_plusplus][ARS++ Wikipedia]]
 ** Related Languages
    [[* A++]]
+
+* Assembly
+** Links
+   [[http://www.dmoz.org/Computers/Programming/Languages/Assembly/][Open Directory: Assembly]]
+   [[http://www.google.com/Top/Computers/Programming/Languages/Assembly/][Google Directory: Assembly]]
+
+* ATS
+** Links
+   [[http://www.ats-lang.org/][ATS home page]]
+   [[http://en.wikipedia.org/wiki/ATS_(programming_language)][ATS Wikipedia]]
+** Related Languages
+   [[* ML]]
+   [[*  Objective Caml]]
+
+* AWK
+** Links
+   [[http://en.wikipedia.org/wiki/AWK][AWK Wikipedia]]
+** Related Languages
+   [[* SNOBOL]]
+   [[* Perl]]
+
+* ASP.NET
+** Links
+   [[http://www.asp.net/][ASP.NET home page]]
+   [[http://en.wikipedia.org/wiki/ASP.NET][ASP.NET Wikipedia]]
+
+* B
+  Predecessor to C.
+** Links
+   [[http://en.wikipedia.org/wiki/B_(programming_language)][B Wikipedia]]
+** Related Languages
+   [[* BCPL]]
+
+* BACI
+** Links
+   [[http://inside.mines.edu/fs_home/tcamp/baci/][BACI home page]]
+
+* BASIC
+** Links
+   [[http://en.wikipedia.org/wiki/BASIC][BASIC Wikipedia]]
+
+* bc
+** Links
+   [[http://en.wikipedia.org/wiki/Bc_(programming_language)][bc Wikipedia]]
+** Related Languages
+   [[* dc]]
+   [[* Hoc]]
+
+* bCompile
+** Links
+   [[http://www.webmissive.com/users/egeld/bcompile/index.php][bCompile home page]]
+
+* BCPL
+** Links
+   [[http://en.wikipedia.org/wiki/BCPL][BCPL Wikipedia]]
+** Related Languages
+   [[* CPL]]
+
+* BeanShell
+  A Java scripting language.
+** Links
+   [[http://www.beanshell.org/][BeanShell home page]]
+   [[http://en.wikipedia.org/wiki/BeanShell][BeanShell Wikipedia]]
+** Related Languages
+   [[* Java]]
+
+* BETA
+** Links
+   [[http://daimi.au.dk/~beta/][BETA home page]]
+   [[http://en.wikipedia.org/wiki/BETA][BETA Wikipedia]]
+** Related Languages
+   [[* gbeta]]
+   [[* Simula]]
+
+* Bigwig
+** Links
+   [[http://www.brics.dk/bigwig/introduction/][Bigwig home page]]
+   [[http://en.wikipedia.org/wiki/Bigwig_(programming_language)][Bigwig Wikipedia]]
+** Related Languages
+   [[* Mawl]]
+
+* Bistro
+** Links
+   [[http://bistro.sourceforge.net/][Bistro Project Page]]
+   [[http://en.wikipedia.org/wiki/Bistro_(programming_language)][Bistro Wikipedia]]
+** Related Languages
+   [[* Java]]
+
+* BitC
+** Links
+   [[http://www.bitc-lang.org/][BitC home page]]
+   [[http://en.wikipedia.org/wiki/BitC][BitC Wikipedia]]
+
+* BLISS
+** Links
+   [[http://en.wikipedia.org/wiki/BLISS_(programming_language)][BLISS Wikipedia]]
+
+* Blue (Monash)
+  A free system for teaching Object-Oriented Programming
+** Links
+   [[http://www.cs.kent.ac.uk/people/staff/mik/blue/][Blue home page]]
+   [[http://en.wikipedia.org/wiki/Blue_(programming_language)][Blue Wikipedia]]
+
+* Blue (Lechak)
+  A programming language with minimalistic syntax.
+** Links
+   [[http://www.lechak.info/blue/][Blue home page]]
+   [[http://en.wikipedia.org/wiki/Blue_(programming_language)][Blue Wikipedia]]
+
+* Boo
+** Links
+   [[http://boo.codehaus.org/][Boo home page]]
+   [[http://en.wikipedia.org/wiki/Boo_(programming_language)][Boo Wikipedia]]
+** Related Languages
+   [[* Python]]
+
+* Bourne Shell
+** Links
+   [[http://en.wikipedia.org/wiki/Bourne_shell][Bourne Shell Wikipedia]]
+
+* Bourne-Again Shell
+** Links
+   [[http://tiswww.case.edu/php/chet/bash/bashtop.html][Bash home page]]
+   [[http://en.wikipedia.org/wiki/Bash][Bash Wikipedia]]
+
+* Boxx
+** Links
+   [[http://boxx.origincode.com/][Boxx home page]]
+   [[http://en.wikipedia.org/wiki/User:Rowfilter/Boxx][Boxx Wikipedia]]
+
+* BPEL
+** Links
+   [[http://en.wikipedia.org/wiki/BPEL][BPEL Wikipedia]]
+
+* Brainfuck
+** Links
+   [[http://en.wikipedia.org/wiki/Brainfuck][Brainfuck Wikipedia]]
+** Related Languages
+   [[* P"]]
+   [[* FALSE]]
+
+* BUGSYS
+** Links
+   [[http://en.wikipedia.org/wiki/BUGSYS][BUGSYS Wikipedia]]
+
+* BuildProfessional
+** Links
+   [[http://www.todaysystems.com/content/web/bp_overview.htm][BuildProfessional home page]]
+   [[http://en.wikipedia.org/wiki/BuildProfessional][BuildProfessional Wikipedia]]
+
+* BYOND
+  Language and system for making online games.
+** Links
+   [[http://www.byond.com/][BYOND home page]]
+
+
+
+* FALSE
+** Links
+   [[http://en.wikipedia.org/wiki/FALSE][FALSE Wikipedia]]
+
+* Hoc
+** Links
+   [[http://en.wikipedia.org/wiki/Hoc_(programming_language)][Hoc Wikipedia]]
+
+* ISWIM
+** Links
+   [[http://en.wikipedia.org/wiki/ISWIM][ISWIM Wikipedia]]
+** Related Languages
+   [[* ALGOL]]
+   [[* SASL]]
+   [[* ML]]
+   [[* Miranda]]
+   [[* Haskell]]
+
+* Mawl
+** Links
+   [[http://cgibin.erols.com/ziring/cgi-bin/cep/cep.pl?_key=Mawl][Page about Mawl]]
+
+* P"
+** Links
+   [[http://en.wikipedia.org/wiki/P′′][P" Wikipedia]]
