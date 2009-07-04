@@ -1,0 +1,7 @@
+* Write a blog post for each programming language, in alphabetical order
+** Interesting facts
+** Anatomy of an X program
+** Common uses
+** A semi-non-trivial example program (if possible)
+
+* Contribute any new information discovered back to Wikipedia

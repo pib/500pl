@@ -1,0 +1,51 @@
+
+* A+
+** Links
+   [[http://www.aplusdev.org/][A+ Development.org]]
+   [[http://en.wikipedia.org/wiki/A%2B_(programming_language)][A+ Wikipedia]]
+
+* A++ -- Abstraction Plus Reference Plus Synthesis
+** Links
+   [[http://www.aplusplus.net/][Official A++ website]]
+   [[http://en.wikipedia.org/wiki/A%2B%2B][A++ Wikipedia]]
+   [[http://www.aplusplus.net/bookonl/][A++ Book Online]]
+** Related Languages
+   ARS++
+
+* A# (.NET)
+  Ada port to the .NET platform
+** Links
+   [[http://asharp.martincarlisle.com/][A# Home Page]]
+   [[http://en.wikipedia.org/wiki/A_Sharp_(.NET)][A# Wikipedia]]
+** Related Languages
+   Ada
+
+* A# (Axiom)
+** Links
+   [[http://en.wikipedia.org/wiki/A_Sharp_(Axiom)][A# Wikipedia]]
+** Related Languages
+   Aldor
+
+* A-0
+  A-0 was "the first compiler ever developed for an electronic computer."
+** Links
+   [[http://en.wikipedia.org/wiki/A-0_(programming_language)][A-0 Wikipedia]]
+** Related Languages
+   A-1
+   A-2
+   A-3 (ARITH-MATIC)
+   AT-3 (MATH-MATIC)
+   B-0 (FLOW-MATIC)
+
+
+
+* Aldor
+** Links
+   [[http://www.aldor.org/][Aldor Home Page]]
+   [[http://en.wikipedia.org/wiki/Aldor_programming_language][Aldor Wikipedia]]
+
+* ARS++
+** Links
+   [[http://en.wikipedia.org/wiki/ARS_plusplus][ARS++ Wikipedia]]
+** Related Languages
+   A++
