@@ -18,7 +18,7 @@
 * A# (.NET)
   Ada port to the .NET platform
 ** Links
-   [[http://asharp.martincarlisle.com/][A# home page]]
+   [[http://asharp.martincarlisle.com/][A# home]]
    [[http://en.wikipedia.org/wiki/A_Sharp_(.NET)][A# Wikipedia]]
 ** Related Languages
    [[* Ada]]
@@ -107,7 +107,7 @@
 
 * Ace DASL
 ** Links
-   [[http://research.sun.com/projects/ace/][Ace home page]]
+   [[http://research.sun.com/projects/ace/][Ace home]]
    [[http://en.wikipedia.org/wiki/DASL_-_Distributed_Application_Specification_Language][DASL Wikipedia]]
 
 * ACT-III
@@ -130,12 +130,12 @@
 
 * Afnix
 ** Links
-   [[http://www.afnix.org/][Afnix home page]]
+   [[http://www.afnix.org/][Afnix home]]
    [[http://en.wikipedia.org/wiki/Afnix][Afnix Wikipedia]]
 
 * Aldor
 ** Links
-   [[http://www.aldor.org/][Aldor home page]]
+   [[http://www.aldor.org/][Aldor home]]
    [[http://en.wikipedia.org/wiki/Aldor_programming_language][Aldor Wikipedia]]
 
 * ALGOL
@@ -155,12 +155,12 @@
 
 * AppleScript
 ** Links
-   [[http://developer.apple.com/applescript/][AppleScript home page]]
+   [[http://developer.apple.com/applescript/][AppleScript home]]
    [[http://en.wikipedia.org/wiki/AppleScript][AppleScript Wikipedia]]
 
 * Amiga E
 ** Links
-   [[http://strlen.com/e/][Amiga E home page]]
+   [[http://strlen.com/e/][Amiga E home]]
    [[http://en.wikipedia.org/wiki/AmigaE][Amiga E Wikipedia]]
 
 * AMOS
@@ -174,7 +174,7 @@
 
 * Arc
 ** Links
-   [[http://arclanguage.org/][Arc home page]]
+   [[http://arclanguage.org/][Arc home]]
    [[http://en.wikipedia.org/wiki/Arc_(programming_language)][Arc Wikipedia]]
 ** Related Languages
    [[* LISP]]
@@ -192,7 +192,7 @@
 
 * ATS
 ** Links
-   [[http://www.ats-lang.org/][ATS home page]]
+   [[http://www.ats-lang.org/][ATS home]]
    [[http://en.wikipedia.org/wiki/ATS_(programming_language)][ATS Wikipedia]]
 ** Related Languages
    [[* ML]]
@@ -207,7 +207,7 @@
 
 * ASP.NET
 ** Links
-   [[http://www.asp.net/][ASP.NET home page]]
+   [[http://www.asp.net/][ASP.NET home]]
    [[http://en.wikipedia.org/wiki/ASP.NET][ASP.NET Wikipedia]]
 
 * B
@@ -219,7 +219,7 @@
 
 * BACI
 ** Links
-   [[http://inside.mines.edu/fs_home/tcamp/baci/][BACI home page]]
+   [[http://inside.mines.edu/fs_home/tcamp/baci/][BACI home]]
 
 * BASIC
 ** Links
@@ -234,7 +234,7 @@
 
 * bCompile
 ** Links
-   [[http://www.webmissive.com/users/egeld/bcompile/index.php][bCompile home page]]
+   [[http://www.webmissive.com/users/egeld/bcompile/index.php][bCompile home]]
 
 * BCPL
 ** Links
@@ -245,14 +245,14 @@
 * BeanShell
   A Java scripting language.
 ** Links
-   [[http://www.beanshell.org/][BeanShell home page]]
+   [[http://www.beanshell.org/][BeanShell home]]
    [[http://en.wikipedia.org/wiki/BeanShell][BeanShell Wikipedia]]
 ** Related Languages
    [[* Java]]
 
 * BETA
 ** Links
-   [[http://daimi.au.dk/~beta/][BETA home page]]
+   [[http://daimi.au.dk/~beta/][BETA home]]
    [[http://en.wikipedia.org/wiki/BETA][BETA Wikipedia]]
 ** Related Languages
    [[* gbeta]]
@@ -260,7 +260,7 @@
 
 * Bigwig
 ** Links
-   [[http://www.brics.dk/bigwig/introduction/][Bigwig home page]]
+   [[http://www.brics.dk/bigwig/introduction/][Bigwig home]]
    [[http://en.wikipedia.org/wiki/Bigwig_(programming_language)][Bigwig Wikipedia]]
 ** Related Languages
    [[* Mawl]]
@@ -274,7 +274,7 @@
 
 * BitC
 ** Links
-   [[http://www.bitc-lang.org/][BitC home page]]
+   [[http://www.bitc-lang.org/][BitC home]]
    [[http://en.wikipedia.org/wiki/BitC][BitC Wikipedia]]
 
 * BLISS
@@ -284,18 +284,18 @@
 * Blue (Monash)
   A free system for teaching Object-Oriented Programming
 ** Links
-   [[http://www.cs.kent.ac.uk/people/staff/mik/blue/][Blue home page]]
+   [[http://www.cs.kent.ac.uk/people/staff/mik/blue/][Blue home]]
    [[http://en.wikipedia.org/wiki/Blue_(programming_language)][Blue Wikipedia]]
 
 * Blue (Lechak)
   A programming language with minimalistic syntax.
 ** Links
-   [[http://www.lechak.info/blue/][Blue home page]]
+   [[http://www.lechak.info/blue/][Blue home]]
    [[http://en.wikipedia.org/wiki/Blue_(programming_language)][Blue Wikipedia]]
 
 * Boo
 ** Links
-   [[http://boo.codehaus.org/][Boo home page]]
+   [[http://boo.codehaus.org/][Boo home]]
    [[http://en.wikipedia.org/wiki/Boo_(programming_language)][Boo Wikipedia]]
 ** Related Languages
    [[* Python]]
@@ -306,12 +306,12 @@
 
 * Bourne-Again Shell
 ** Links
-   [[http://tiswww.case.edu/php/chet/bash/bashtop.html][Bash home page]]
+   [[http://tiswww.case.edu/php/chet/bash/bashtop.html][Bash home]]
    [[http://en.wikipedia.org/wiki/Bash][Bash Wikipedia]]
 
 * Boxx
 ** Links
-   [[http://boxx.origincode.com/][Boxx home page]]
+   [[http://boxx.origincode.com/][Boxx home]]
    [[http://en.wikipedia.org/wiki/User:Rowfilter/Boxx][Boxx Wikipedia]]
 
 * BPEL
@@ -331,15 +331,96 @@
 
 * BuildProfessional
 ** Links
-   [[http://www.todaysystems.com/content/web/bp_overview.htm][BuildProfessional home page]]
+   [[http://www.todaysystems.com/content/web/bp_overview.htm][BuildProfessional home]]
    [[http://en.wikipedia.org/wiki/BuildProfessional][BuildProfessional Wikipedia]]
 
 * BYOND
   Language and system for making online games.
 ** Links
-   [[http://www.byond.com/][BYOND home page]]
+   [[http://www.byond.com/][BYOND home]]
 
+* C
+** Links
+   [[http://en.wikipedia.org/wiki/C_(programming_language)][C Wikipedia]]
 
+* C--
+** Links
+   [[http://www.cminusminus.org/][C-- home]]
+   [[http://en.wikipedia.org/wiki/C--][C-- Wikipedia]]
+
+* C++
+** Links
+   [[http://en.wikipedia.org/wiki/C%2B%2B][C++ Wikipedia]]
+
+* C#
+** Links
+   [[http://en.wikipedia.org/wiki/C_Sharp_(programming_language)][C# Wikipedia]]
+
+* C shell
+** Links
+   [[http://en.wikipedia.org/wiki/C_shell][C shell Wikipedia]]
+
+* Caché ObjectScript
+** Links
+   [[http://www.intersystems.com/][Caché ObjectScript creator's home]]
+   [[http://en.wikipedia.org/wiki/Caché_ObjectScript][Caché ObjectScript Wikipedia]]
+
+* Cat
+** Links
+   [[http://www.cat-language.com/][Cat home]]
+   [[http://en.wikipedia.org/wiki/Cat_(programming_language)][Cat Wikipedia]]
+
+* Cayenne
+** Links
+   [[http://www.cs.chalmers.se/~augustss/cayenne/index.html][Cayenne home]]
+   [[http://en.wikipedia.org/wiki/Cayenne_(programming_language)][Cayenne Wikipedia]]
+
+* C-BOT
+** Links
+   [[http://en.wikipedia.org/wiki/Colobot][Colobot with C-BOT example]]
+
+* Cecil
+** Links
+   [[http://www.cs.washington.edu/research/projects/cecil/][Cecil home]]
+   [[http://en.wikipedia.org/wiki/Cecil_(programming_language)][Cecil Wikipedia]]
+
+* Cesil
+** Links
+   [[http://www.obelisk.demon.co.uk/cesil/][Cesil home]]
+   [[http://en.wikipedia.org/wiki/Cesil][Cesil Wikipedia]]
+
+* CFML
+** Links
+   [[http://en.wikipedia.org/wiki/ColdFusion_Markup_Language][CFML Wikipedia]]
+
+* Cg
+** Links
+   [[http://en.wikipedia.org/wiki/Cg_(programming_language)][Cg Wikipedia]]
+
+* Chapel
+** Links
+   [[http://chapel.cs.washington.edu/][Chapel home]]
+   [[http://en.wikipedia.org/wiki/Chapel_(programming_language)][Chapel Wikipedia]]
+
+* CHAIN
+** Links
+   [[http://en.wikipedia.org/wiki/CHAIN_(programming_language)][CHAIN Wikipedia]]
+
+* Charity
+** Links
+   [[http://pll.cpsc.ucalgary.ca/charity1/www/home.html][Charity home]]
+   [[http://en.wikipedia.org/wiki/Charity_(programming_language)][Charity Wikipedia]]
+
+* Concurrent ML
+** Links
+   [[http://cml.cs.uchicago.edu/][Concurrent ML home]]
+   [[http://en.wikipedia.org/wiki/Concurrent_ML][Concurrent ML Wikipedia]]
+
+* Extensible ML
+  Unavailable to non CMU folks.
+** Links
+   [[http://www-2.cs.cmu.edu/~fp/courses/03-312/software.html][Extensible ML]]
+   [[http://en.wikipedia.org/wiki/Extensible_ML][Extensible ML Wikipedia]]
 
 * FALSE
 ** Links
@@ -362,6 +443,15 @@
 * Mawl
 ** Links
    [[http://cgibin.erols.com/ziring/cgi-bin/cep/cep.pl?_key=Mawl][Page about Mawl]]
+
+* Objective Caml
+** Links
+   [[http://en.wikipedia.org/wiki/Ocaml][Ocaml Wikipedia]]
+
+* O'Haskell
+** Links
+   [[http://www.cs.chalmers.se/~nordland/ohaskell/][O'Haskell home]]
+   [[http://en.wikipedia.org/wiki/O'Haskell][O'Haskell Wikipedia]]
 
 * P"
 ** Links
