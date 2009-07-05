@@ -1,3 +1,9 @@
+* Get list of languages
+** Get them from Wikipedia list of programming languages
+** Search for other lists of programming languages for any missed
+** Get them from lists of esoteric programming languages
+** Get them from my delicious bookmarks of programming languages
+
 * Write a blog post for each programming language, in alphabetical order
 ** Interesting facts
 ** Anatomy of an X program
