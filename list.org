@@ -105,11 +105,6 @@
    [[* ECMAScript]]
    [[* JavaScript]]
 
-* Ace DASL
-** Links
-   [[http://research.sun.com/projects/ace/][Ace home]]
-   [[http://en.wikipedia.org/wiki/DASL_-_Distributed_Application_Specification_Language][DASL Wikipedia]]
-
 * ACT-III
 ** Links
    [[http://en.wikipedia.org/wiki/LGP-30#ACT-III_programming_language][ACT-III Wikipedia]]
@@ -411,13 +406,153 @@
    [[http://pll.cpsc.ucalgary.ca/charity1/www/home.html][Charity home]]
    [[http://en.wikipedia.org/wiki/Charity_(programming_language)][Charity Wikipedia]]
 
+* Chef
+  Programs are recipes!
+** Links
+   [[http://www.dangermouse.net/esoteric/chef.html][Chef home page]]
+   [[http://en.wikipedia.org/wiki/Chef_(programming_language)][Chef Wikipedia]]
+
+* CHILL
+** Links
+   [[http://en.wikipedia.org/wiki/CHILL][CHILL Wikipedia]]
+   [[http://gcc.gnu.org/onlinedocs/gcc-2.95.3/chill.html][Guide to GNU Chill]]
+   [[http://www1.informatik.uni-jena.de/languages/chill/chill.htm][CHILL home page (down?)]]
+
+* CHIP-8
+** Links
+   [[http://en.wikipedia.org/wiki/CHIP-8][CHIP-8 Wikipedia]]
+
+* chomski
+** Links
+   [[http://en.wikipedia.org/wiki/Chomski][chomsky Wikipedia]]
+
+* Chuck
+** Links
+   [[http://en.wikipedia.org/wiki/ChucK][Chuck Wikipedia]]
+
+* Cilk
+
+* CICS
+
+* CL
+
+* Clarion
+
+* Clean
+
+* Clipper
+
+* CLIST
+
+* Clojure
+
+* CLU
+
+* CMS-2
+
+* COBOL
+
+* CobolScript
+
+* Cobra (from Cobra Language LLC)
+
+* Cobra (from Squeaky Duck)
+
+* CODE
+
+* ColdFusion
+
+* COMAL
+
+* Common Intermediate Language
+
+* Common Lisp
+
+* COMPASS
+
+* Component Pascal
+
+* COMIT
+
+* Concept
+** Links
+   [[http://www.radgs.com/7-about-concept-programming-language.html][Concept home page?]]
+
+* Concurrent Clean
+
 * Concurrent ML
 ** Links
    [[http://cml.cs.uchicago.edu/][Concurrent ML home]]
    [[http://en.wikipedia.org/wiki/Concurrent_ML][Concurrent ML Wikipedia]]
 
+* Constraint Handling Rules
+
+* Converge
+
+* CORAL 66
+
+* Corn
+** Links
+   [[http://cornlanguage.com/][Corn home page]]
+
+* CorVision
+
+* COWSEL
+
+* CPL
+
+* CSP
+
+* Csound
+
+* Cue
+
+* Curl
+
+* Curry
+
+* Cyclone
+
+* D
+
+* D4
+
+* dBase
+
+* Dao
+
+* DASL
+
+* DataFlex
+
+* Datalog
+
+* dc
+
+* DCL
+
+* Deesel
+
+* Delphi/Kylix
+
+* Dialect
+
+* DinkC
+
+* Dialog Manager
+
+* DIBOL
+
+* DL/I
+
+* Dylan
+
+* Dynace
+
+* D++ (J#/J++)
+
 * Extensible ML
-  Unavailable to non CMU folks.
+  Unailable to non CMU folks.
 ** Links
    [[http://www-2.cs.cmu.edu/~fp/courses/03-312/software.html][Extensible ML]]
    [[http://en.wikipedia.org/wiki/Extensible_ML][Extensible ML Wikipedia]]
@@ -440,6 +575,8 @@
    [[* Miranda]]
    [[* Haskell]]
 
+* Lean
+
 * Mawl
 ** Links
    [[http://cgibin.erols.com/ziring/cgi-bin/cep/cep.pl?_key=Mawl][Page about Mawl]]
@@ -453,6 +590,12 @@
    [[http://www.cs.chalmers.se/~nordland/ohaskell/][O'Haskell home]]
    [[http://en.wikipedia.org/wiki/O'Haskell][O'Haskell Wikipedia]]
 
+* Oxygene
+** Links
+   [[http://en.wikipedia.org/wiki/Chrome_(programming_language)][Oxygene Wikipedia]]
+
 * P"
 ** Links
    [[http://en.wikipedia.org/wiki/P′′][P" Wikipedia]]
+
+* TACPOL
