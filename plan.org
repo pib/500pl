@@ -1,5 +1,6 @@
 * Get list of languages
 ** Get them from Wikipedia list of programming languages
+** Check PL News list of languages for any missed
 ** Search for other lists of programming languages for any missed
 ** Get them from lists of esoteric programming languages
 ** Get them from my delicious bookmarks of programming languages

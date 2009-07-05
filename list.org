@@ -7,7 +7,8 @@
    [[* APL]]
    [[* K]]
 
-* A++ -- Abstraction Plus Reference Plus Synthesis
+* A++
+  Abstraction Plus Reference Plus Synthesis
 ** Links
    [[http://www.aplusplus.net/][Official A++ website]]
    [[http://en.wikipedia.org/wiki/A%2B%2B][A++ Wikipedia]]
@@ -132,6 +133,9 @@
 ** Links
    [[http://www.aldor.org/][Aldor home]]
    [[http://en.wikipedia.org/wiki/Aldor_programming_language][Aldor Wikipedia]]
+
+* ALF
+  Algebraic Logic Functional programming language
 
 * ALGOL
 ** Links
@@ -551,6 +555,52 @@
 
 * D++ (J#/J++)
 
+* E
+
+* Ease
+
+* EASY
+
+* Easytrieve
+
+* eC
+** Links
+   [[http://www.ecere.com/technologies.html][eC home page]]
+
+* Edinburgh IMP
+
+* Einstein
+
+* Eiffel
+
+* Elan
+
+* elastiC
+
+* Elf
+
+* Emacs Lisp
+
+* EGL
+
+* Epigram
+
+* Erlang
+
+* Escapade
+
+* Esterel
+
+* Euclid
+
+* Euphoria
+
+* Euler
+
+* EXEC
+
+* EXEC 2
+
 * Extensible ML
   Unailable to non CMU folks.
 ** Links
@@ -576,6 +626,8 @@
    [[* Haskell]]
 
 * Lean
+
+* Linda
 
 * Mawl
 ** Links
