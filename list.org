@@ -39,7 +39,7 @@
    [[* A-2]]
    [[* A-3 (ARITH-MATIC)]]
    [[* AT-3 (MATH-MATIC)]]
-   [[* B-0 (FLOW-MATIC)]]
+   [[* FLOW-MATIC][FLOW-MATIC (B-0)]]
 
 * ABAP
   Advanced Business Application Programming, originally Allgemeiner
@@ -124,6 +124,8 @@
    [[* VHDL]]
    [[* Ruby]]
 
+* Agora
+
 * Afnix
 ** Links
    [[http://www.afnix.org/][Afnix home]]
@@ -134,6 +136,8 @@
    [[http://www.aldor.org/][Aldor home]]
    [[http://en.wikipedia.org/wiki/Aldor_programming_language][Aldor Wikipedia]]
 
+* Alef
+
 * ALF
   Algebraic Logic Functional programming language
 
@@ -142,6 +146,8 @@
    [[http://en.wikipedia.org/wiki/ALGOL][ALGOL Wikipedia]]
 ** Related Languages
    [[* ISWIM]]
+
+* Alice
 
 * APL
 ** Links
@@ -364,6 +370,8 @@
    [[http://www.intersystems.com/][Caché ObjectScript creator's home]]
    [[http://en.wikipedia.org/wiki/Caché_ObjectScript][Caché ObjectScript Wikipedia]]
 
+* CAL
+
 * Cat
 ** Links
    [[http://www.cat-language.com/][Cat home]]
@@ -382,6 +390,8 @@
 ** Links
    [[http://www.cs.washington.edu/research/projects/cecil/][Cecil home]]
    [[http://en.wikipedia.org/wiki/Cecil_(programming_language)][Cecil Wikipedia]]
+
+* Cel
 
 * Cesil
 ** Links
@@ -589,6 +599,8 @@
 
 * Escapade
 
+* Escher
+
 * Esterel
 
 * Euclid
@@ -607,13 +619,132 @@
    [[http://www-2.cs.cmu.edu/~fp/courses/03-312/software.html][Extensible ML]]
    [[http://en.wikipedia.org/wiki/Extensible_ML][Extensible ML Wikipedia]]
 
+
+* F
+
+* F#
+
+* Factor
+
+* Falcon
+
 * FALSE
 ** Links
    [[http://en.wikipedia.org/wiki/FALSE][FALSE Wikipedia]]
 
+* Fan
+
+* Felix
+
+* Ferite
+
+* FFP
+
+* Fjölnir
+
+* FL
+
+* Fly
+
+* FLOW-MATIC
+
+* FOCAL
+
+* FOCUS
+
+* FOIL
+
+* FORMAC
+
+* Formula Language
+
+* Forth
+
+* Fortran
+
+* Fortress
+
+* FoxPro
+
+* FP
+
+* Frink
+
+* Frontier
+
+* F-Script
+
+* Fuxi
+
+* GAP
+
+* Game Maker Language
+
+* GameMonkey Script
+
+* GAMS
+
+* Gibiane
+
+* GLSL
+
+* Gödel
+
+* Godiva
+
+* GOTO++
+
+* GPSS
+
+* GRASS
+
+* Green
+
+* Groovy
+
+* HAL/S
+
+* HAScript
+
+* Haskell
+
+* HaXe
+
+* High Level Assembly
+
+* HLSL
+
 * Hoc
 ** Links
    [[http://en.wikipedia.org/wiki/Hoc_(programming_language)][Hoc Wikipedia]]
+
+* Hop
+
+* Hope
+
+* HyperTalk
+
+* ICI
+
+* Icon
+
+* IDL
+
+* IMP
+
+* Inform
+
+* Information Processing Language
+
+* Informix-4GL
+
+* Io
+
+* Ioke
+
+* IPTSCRAE
+
+* ISPF
 
 * ISWIM
 ** Links
@@ -625,29 +756,567 @@
    [[* Miranda]]
    [[* Haskell]]
 
+* J
+
+* J#
+
+* J++
+
+* JADE
+
+* Jal
+
+* Janus
+
+* JASS
+
+* Java
+
+* JavaScript
+
+* JCL
+
+* Join Java
+
+* Joule
+
+* JOVIAL
+
+* Joy
+
+* JSP
+
+* K
+
+* KEE
+
+* Kiev
+
+* Korn shell
+
+* Kite
+
+* KM
+
+* Kogut
+
+* KRC
+
+* KRL
+
+* KRYPTON
+
+* L
+
+* LabVIEW
+
+* Ladder Logic
+
+* Lagoona
+
+* LANSA
+
+* Lasso
+
+* Lava
+
+* Leda
+
+* Lead
+
+* Leadwerks Engine
+
 * Lean
 
+* Legoscript
+
+* Limbo
+
+* Limnor
+
+* LINC
+
 * Linda
+
+* Lingo
+
+* LISA
+
+* Lisaac
+
+* Lisp
+
+* Logo
+
+* LOLCODE
+
+* LPC
+
+* LSL
+
+* LSE
+
+* Lua
+
+* Lucid
+
+* Lush
+
+* Lustre
+
+* LYaPAS
+
+* M
+
+* M4
+
+* MAD
+
+* Magik
+
+* Magma
+
+* Maple
+
+* Mary
+
+* Mathematica
+
+* MATLAB
 
 * Mawl
 ** Links
    [[http://cgibin.erols.com/ziring/cgi-bin/cep/cep.pl?_key=Mawl][Page about Mawl]]
 
+* Maxima
+
+* MaxScript
+
+* Maya Embedded Language
+
+* Mercury
+
+* Mesa
+
+* MicroScript
+
+* MillScript
+
+* MIMIC
+
+* Mindscript
+
+* MiniD
+
+* Miranda
+
+* MIVA Script
+
+* ML
+
+* Moby
+
+* Modula
+
+* Mondrian
+
+* Mortran
+
+* Moto
+
+* Mouse
+
+* MSL
+
+* MUMPS
+
+* Mythryl
+
+* Napier88
+
+* Natural
+
+* Nemerle
+
+* NESL
+
+* Net.Data
+
+* NetLogo
+
+* newLISP
+
+* NewtonScript
+
+* NGL
+
+* Nial
+
+* Nice
+
+* Nickle
+
+* Nosica
+
+* NQC
+
+* Nu
+
+* NXC
+
+* o:XML
+
+* Oberon
+
+* Object Lisp
+
+* Object Pascal
+
+* Objective-C
+
 * Objective Caml
 ** Links
    [[http://en.wikipedia.org/wiki/Ocaml][Ocaml Wikipedia]]
+
+* Objective-J
+
+* ObjectLOGO
+
+* Obliq
+
+* occam
+
+* occam-π
+
+* Octave
 
 * O'Haskell
 ** Links
    [[http://www.cs.chalmers.se/~nordland/ohaskell/][O'Haskell home]]
    [[http://en.wikipedia.org/wiki/O'Haskell][O'Haskell Wikipedia]]
 
+* OmniMark
+
+* Opal
+
+* Open Programming Language
+
+* OPS5
+
+* ORCA
+
+* Organiser Programming Language
+
 * Oxygene
 ** Links
    [[http://en.wikipedia.org/wiki/Chrome_(programming_language)][Oxygene Wikipedia]]
+
+* Oz
 
 * P"
 ** Links
    [[http://en.wikipedia.org/wiki/P′′][P" Wikipedia]]
 
+* PARI/GP
+
+* Pascal
+
+* Pawn
+
+* PCASTL
+
+* PEARL
+
+* Perl
+
+* PHP
+
+* Phrogram
+
+* Pico
+
+* Piet
+
+* Pike
+
+* PIKT
+
+* PILOT
+
+* Pizza
+
+* PL/0
+
+* PL/1
+
+* PL/8
+
+* PL/B
+
+* PL/C
+
+* PL/I
+
+* PL/M
+
+* PL/P
+
+* PL/SQL
+
+* Plankalkül
+
+* PLEXIL
+
+* Pliant
+
+* PPL
+
+* POP-11
+
+* Poplog
+
+* PostScript
+
+* Processing
+
+* Prograph
+
+* Prolog
+
+* Promela
+
+* Proteus
+
+* PROIV
+
+* ProvideX
+
+* Python
+
+* Q
+
+* Qi
+
+* QtScript
+
+* QuakeC
+
+* QPL
+
+* R
+
+* R++
+
+* Ratfiv
+
+* Ratfor
+
+* rc
+
+* REPL
+
+* REBOL
+
+* Redcode
+
+* REFAL
+
+* Reia
+
+* Revolution
+
+* REXX
+
+* Rlab
+
+* Robot Scripting Language
+
+* RPG
+
+* RPL
+
+* Ruby
+
+* S
+
+* S2
+
+* S3
+
+* S-PLUS
+
+* S-Lang
+
+* SAIL
+
+* SAM76
+
+* SAS
+
+* Sather
+
+* Sawzall
+
+* Scala
+
+* Scheme
+
+* Scilab
+
+* Script.NET
+
+* Sed
+
+* Seed7
+
+* Self
+
+* SETL
+
+* Shakespeare
+
+* Shift Script
+
+* SIMPOL
+
+* SiMPLE
+
+* SIMSCRIPT
+
+* Simula
+
+* SISAL
+
+* Slate
+
+* SLIP
+
+* SMALL
+
+* SmallTalk
+
+* SNOWBOL
+
+* Snowball
+
+* SNUSP
+
+* SPARK
+
+* Spice
+
+* SPIN
+
+* SP/k
+
+* Squirrel
+
+* SR
+
+* S/SL
+
+* SML
+
+* SuperCollider
+
+* Subtext
+
+* Suneido
+
+* SYMPL
+
+* SyncCharts
+
+* T
+
 * TACPOL
+
+* TADS
+
+* Tea
+
+* TIE
+
+* Tcl
+
+* Tex
+
+* Timber
+
+* Tom
+
+* TOM
+
+* topspeed
+
+* Trac
+
+* TTCN
+
+* Turing
+
+* TXL
+
+* Ubercode
+
+* Unicon
+
+* Uniface
+
+* uniPaaS
+
+* Unlambda
+
+* UnrealScript
+
+* Vala
+
+* Verilog
+
+* VHDL
+
+* vvvv
+
+* Water
+
+* WebQL
+
+* Whitespace
+
+* X++
+
+* X10
+
+* XBL
+
+* xHarbour
+
+* XL
+
+* XOTcl
+
+* XPL
+
+* XPL0
+
+* XQuery
+
+* XSLT
+
+* Y
+
+* Yoix
+
+* Yorick
+
+* Z
+
+* Zonnon
+
+* ZOPL
+
+* ZPL
+
+* ZZT-oop
+
+* Ωmega
