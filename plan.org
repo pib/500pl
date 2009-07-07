@@ -10,5 +10,7 @@
 ** Anatomy of an X program
 ** Common uses
 ** A semi-non-trivial example program (if possible)
+** How to get it (how easy installation is)
+** How to learn it (where's the good documentation?)
 
 * Contribute any new information discovered back to Wikipedia

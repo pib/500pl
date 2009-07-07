@@ -323,6 +323,9 @@
 ** Links
    [[http://en.wikipedia.org/wiki/BPEL][BPEL Wikipedia]]
 
+* Brain
+  [[http://brain.sourceforge.net/]]
+
 * Brainfuck
 ** Links
    [[http://en.wikipedia.org/wiki/Brainfuck][Brainfuck Wikipedia]]
@@ -475,6 +478,9 @@
 * CODE
 
 * ColdFusion
+
+* ColorForth
+  [[http://www.colorforth.com/]]
 
 * COMAL
 
@@ -633,16 +639,21 @@
    [[http://en.wikipedia.org/wiki/FALSE][FALSE Wikipedia]]
 
 * Fan
+  [[http://www.fandev.org/]]
 
 * Felix
 
 * Ferite
+  [[http://www.ferite.org/index.html]]
 
 * FFP
 
 * Fjölnir
 
 * FL
+
+* Flapjax
+  [[http://www.flapjax-lang.org/]]
 
 * Fly
 
@@ -719,6 +730,7 @@
    [[http://en.wikipedia.org/wiki/Hoc_(programming_language)][Hoc Wikipedia]]
 
 * Hop
+  [[http://hop.inria.fr/]]
 
 * Hope
 
@@ -741,6 +753,7 @@
 * Io
 
 * Ioke
+  [[http://kenai.com/projects/ioke/]]
 
 * IPTSCRAE
 
@@ -807,6 +820,24 @@
 * KRYPTON
 
 * L
+  Functional language which wraps C-like syntax around Tcl functionality.
+** Links
+   [[http://wiki.tcl.tk/17068][L language wiki]]
+
+* L
+  Smalltalk-like
+** Links
+   [[http://home.cc.gatech.edu/tony/61][L home page]]
+
+* L
+  Swizzy?
+** Links
+   [[http://www.swizzy.org/L/][L Swizzy]]
+
+* L
+  C-looking-like language with extensible syntax.
+** Links
+   [[http://www.nongnu.org/l-lang/index.html][L home page]]
 
 * LabVIEW
 
@@ -820,15 +851,18 @@
 
 * Lava
 
-* Leda
-
 * Lead
+
+* Leda
 
 * Leadwerks Engine
 
 * Lean
 
 * Legoscript
+
+* Lei
+  [[http://code.google.com/p/lei/]]
 
 * Limbo
 
@@ -875,6 +909,10 @@
 * Magik
 
 * Magma
+
+* Magpie
+** Links
+   [[http://journal.stuffwithstuff.com/category/magpie/][Magpie blog posts]]
 
 * Maple
 
@@ -947,6 +985,9 @@
 * newLISP
 
 * NewtonScript
+
+* Nexus
+  [[http://www.nexuslang.org/]]
 
 * NGL
 
@@ -1043,6 +1084,9 @@
 
 * PILOT
 
+* PILS
+  [[http://www.pils.org/english/]]
+
 * Pizza
 
 * PL/0
@@ -1069,6 +1113,9 @@
 
 * Pliant
 
+* PLOT
+  [[http://users.rcn.com/david-moon/PLOT/]]
+
 * PPL
 
 * POP-11
@@ -1094,6 +1141,12 @@
 * Python
 
 * Q
+  Equational Programming Language
+** Links
+   [[http://q-lang.sourceforge.net/][Q home page]]
+
+* Q
+  [[http://kx.com/q/d/q.htm][General Purpose language and RDBMS]]
 
 * Qi
 
@@ -1110,6 +1163,9 @@
 * Ratfiv
 
 * Ratfor
+
+* Raven
+  [[http://aerosuidae.net/raven.html]]
 
 * rc
 
@@ -1177,6 +1233,9 @@
 
 * Shift Script
 
+* Shiny
+  [[http://aerosuidae.net/shiny.html]]
+
 * SIMPOL
 
 * SiMPLE
@@ -1188,6 +1247,7 @@
 * SISAL
 
 * Slate
+  [[http://slatelanguage.org/]]
 
 * SLIP
 
@@ -1220,6 +1280,7 @@
 * SuperCollider
 
 * Subtext
+  [[http://subtextual.org/]]
 
 * Suneido
 
@@ -1251,6 +1312,9 @@
 
 * Trac
 
+* trad4
+  [[http://trad4.sourceforge.net/]]
+
 * TTCN
 
 * Turing
@@ -1274,6 +1338,9 @@
 * Verilog
 
 * VHDL
+
+* Voodoo
+  [[http://inglorion.net/documents/designs/voodoo/]]
 
 * vvvv
 
@@ -1310,6 +1377,9 @@
 * Yorick
 
 * Z
+
+* Ziggurat
+  [[http://lambda-the-ultimate.org/node/3179]]
 
 * Zonnon
 
