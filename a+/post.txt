@@ -1,3 +1,7 @@
+I expected to run into some problems getting things set up as I worked on this project, but I assumed most of those problems would be along the lines of getting the compiler and/or interpreter for a particular language to compile or run on my machine.
+
+What I didn't expect was to have so many issues just getting my text to be in the encoding that the language expects, but that is exactly what I ran into with A+.
+
 ### Installing A+
 
 All it took for me to install A+ was
@@ -7,3 +11,5 @@ All it took for me to install A+ was
 The aplus-fsf package is also available for several other linux distributions, AIX, FreeBSD, NetBSD, Solaris, Tru64 Unix, IRIX, and Max OS X.
 
 They recommend using Emacs for A+ development (for font support if nothing else), but sadly only XEmacs support seems to be provided.  After spending too much time trying to get XEmacs displaying fonts correctly and taking input as I expect it to, I found this article on getting APL working with Unicode http://stud4.tuwien.ac.at/~e0225855/unicapl/unicapl.html, which includes code to get regular Emacs working as expected, enabling entering of all the crazy symbols required to program in A+ or APL. It also provides the commands apl-aplus-to-unicode and apl-unicode-to-aplus to convert between the A+ format and unicode.
+
+    xterm -fa kapl -en 'ISO 8859-1'

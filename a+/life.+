@@ -1,0 +1,4 @@
+$load s ⍝ Load the graphical system
+
+w←()    ⍝ Initialize our window
+

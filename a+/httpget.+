@@ -1,0 +1,5 @@
+sûsys.sockconnect{"google.com";80};
+rûsys.awrite{s;"GET /\r\f\r\f"};
+sys.aread{s; 0};
+sys.exit{0};
+
