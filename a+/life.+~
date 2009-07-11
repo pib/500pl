@@ -2,7 +2,7 @@
 $load s          ã Load the graphical system
 
 xy take2 m: xy[0] Ù ô xy[1] Ù ô m  ã helper function to resize an array in 2d
-n xr m: ô n ÷ ôm                   ã helper function to rotate on the x axis
+n xr m: ô n ß ôm                   ã helper function to rotate on the x axis
 xy rot2 m: xy[0] ÷ ô xy[1] ÷ ôm    ã helper function to rotate in 2d
 
 nextgen gen: {   ã Calculate the next generation
