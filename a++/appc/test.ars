@@ -1,0 +1,118 @@
+;;;; A++ Interpreter Test
+;
+(define l1
+   (cons four (cons three (cons two (cons one nil)))))
+;;;;;
+(ndisp! (length l1))
+;;;;;                 --> 4
+(ldisp! l1)
+;;;;;                 --> 4
+;;;;;                     3
+;;;;;                     2
+;;;;;                     1
+;;;;;
+(ldisp! (insertion-sort l1))
+;;;;;                 --> 1
+;;;;;                     2
+;;;;;                     3
+;;;;;                     4
+;
+(ndisp! (sum l1))
+;;;;;                 --> 10
+;
+(succ* l1)
+(ldisp! (succ* l1))
+;;;;;                 --> 5
+;;;;;                     4
+;;;;;                     3
+;;;;;                     2
+;
+(ldisp! (filter (lambda(x) (gtp x two)) l1))
+;;;;;                 --> 4
+;;;;;                     3          
+;
+;;;;
+;;;;
+;;;; Objekt-Orientierung in ARS
+;;;;
+;;;;
+
+(define make-account 
+  (lambda(balance)
+    (define get-balance
+      (lambda()
+        balance))
+
+    (define deposit 
+      (lambda(amount)
+        (define balance (add balance amount))
+        balance))
+
+    (define withdraw 
+      (lambda(amount)
+        (if (gep balance amount)
+             ((lambda()
+                (define balance (sub balance amount))
+                balance))
+             false)))
+
+    (define print-account
+      (lambda()
+        (ndisp! balance)))
+
+    (define self 
+      (lambda(msg)
+        (if (equaln msg one) 
+             get-balance
+             (if (equaln msg two) 
+                  deposit
+                  (if (equaln msg three) 
+                       withdraw
+                       (if (equaln msg four) 
+                            print-account
+                            false)))))) 
+
+    self))
+
+(define l1 (cons one (cons three (cons four nil))))
+
+(define l2 (cons seven (cons eight (cons nine (cons ten nil)))))
+
+(ndisp! (Fakultaet five))
+
+(ndisp! (nth two l1))
+
+(for-each ndisp! l2)
+
+(define while-test
+  (lambda(n)
+    (while (gtp n zero)
+      (lambda()
+        (define n (pred n))
+        (ndisp! n)))))
+
+(while-test ten)
+
+(define konto
+  (lambda()
+    (define k1 (make-account ten))
+    (define k2 (make-account five))
+    (define msg-deposit two)
+    (define msg-withdraw three)
+    (define msg-print four)
+    
+    ((k1 msg-print))   
+    ((k1 msg-deposit) ten)
+    ((k1 msg-print))   
+    ((k1 msg-withdraw) four)   
+    ((k1 msg-print))   
+
+    ((k2 msg-print))   
+    ((k2 msg-deposit) nine)   
+    ((k2 msg-print))   
+    ((k2 msg-withdraw) seven) 
+    ((k2 msg-print))))
+ 
+(konto)
+
+

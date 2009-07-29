@@ -1,0 +1,152 @@
+# The 500 Programming Language Challenge
+
+Are you a programmer? If so, then I have a challenge for you. I want
+you to become a programming linguist.
+
+While making (somewhat slow so far) progress on my goal to [program in
+500 programming
+languages](http://probablyprogramming.com/2009/07/06/500-programming-languages/),
+it occurred to me that this could be a much more interesting project if
+I got more people involved.
+
+I'm still aiming for my goal of writing about and in 500 different
+programming languages, but here's my challenge to other programmers:
+
+### Write 500 different programs, in 500 different programming languages.
+
+That's it, that's the whole challenge, well, with a couple of rules, I
+suppose:
+
+1. The 500 programs must be written after reading this post. No fair
+   counting them if you've already (somehow) written 500 programs in
+   500 different languages, so they have to be new.
+
+2. The programs need to be semi-non-trivial. Something a little more
+   advanced than "Hello, world." To use one of my previous programs as
+   an example, an implementation of the game of life is a
+   semi-non-trivial program. Ideally the example will demonstrate some
+   of the strengths of the language, as well.
+
+3. They languages used need to be *different languages*. It doesn't
+   count if you write in 500 different dialects of Basic, for example.
+
+4. Share your results with the world. Either post them on your own
+   blog or put them on github, or whatever, just get them out there so
+   other programmers can see and learn from them.
+
+5. Deadline: there isn't one. Since this is a fairly long-term
+   project, and I know varying people have varying amounts of free
+   time for such a thing, I'm not putting any sort of cap on this. I'm
+   shooting for 3 years or less to completion, but it could just as
+   easily be a ten-year goal, or a one-year goal for someone
+   particularly insane/enthusiastic.
+
+6. Winner: there also isn't one. The idea is to encourage as many
+   people as possible to do this. However, there is sure to be some
+   recognition for the first one to accomplish the goal. I mean,
+   seriously, how many people have written in 500 different
+   programming languages?
+
+So, it's ok if you write some of them in languages you've written in
+before, but you need to write a new program, and it needs to at the
+very least do something more interesting than "Hello, world" or "99
+Bottles of beer"
+
+I'd love to see people take this challenge to an interesting extreme,
+such as writing a programming that does the same thing in 500
+different languages, or writing only in esoteric programming
+languages.
+
+I'll put up a gallery and perhaps do interviews with/profiles of any
+developers who participate in the challenge.
+
+### Become a Programming Linguist
+
+In my mind, there are 3 different kinds of programmers: the
+single-language programmer, the typical programmer, and the polyglot
+programmer.
+
+#### The single-language programmer
+
+This programmer is either very picky, very new to programming, or not
+someone who programs for a living. The latter two are acceptable, the
+former one really isn't.
+
+I would neither like to work with someone who refuses to program in
+anything but Haskell nor someone who refuses to program in anything
+but Visual Basic (though out of the two I'd pick the Haskell
+programmer).
+
+If you're new to programming, or don't plan on doing it much, it's
+acceptable to only know one language, but if you even only plan on
+writing Ruby On Rails or PHP web-apps for the rest of your life, you
+should probably at least know JavaScript and SQL as well.
+
+#### The typical programmer
+
+This programmer has learned a few programming languages, perhaps the
+Ruby/PHP, JS, and SQL mentioned above. This programmer knows
+everything they need to do their current job, and hopefully enough to
+do it **well*.
+
+The typical programmer isn't *too* afraid to pick up a new language
+when they feel a need to do so. Generally this need is brought up by
+work demands or growing tired of the language they use primarily.
+
+Still, this programmer tends to stay away from "weird" programming
+languages, be they functional, stack-based, or simply something with
+an odd syntax compared to what they are used to. Such languages seem
+like they would be too much work to learn, without any practical
+benefit for this programmer who already has a good list of languages
+that do what they need.
+
+With this self-inflicted limitation, the typical programming is truly
+missing out on some profound, powerful knowledge that they could gain
+if they even just took a little time to *understand* these foreign
+paradigms, let alone actually program in them.
+
+#### The polyglot programmer
+
+This programmer loves programming, and more importantly, loves
+programming languages.
+
+The polyglot programmer doesn't let as trivial a thing as "not needing
+to" prevent them from learning a new programming language. They seek
+out new paradigms and techniques and revel in their ability to apply
+what they learn from one language to a language they already know,
+thus making them a better programmer.
+
+This programmer understands that there is a reason for every
+programming language design decision (even if that reason is "we
+didn't think about it too much"), and can't wait to try out a new
+language feature they've as-yet not encountered.
+
+A polyglot programmer can apply for jobs that a typical programmer can
+only scoff at for requiring "one of those weird programming languages"
+that they could never be bothered to learn, and they can more quickly
+learn a new language that their current job might require because they
+have a better understanding of programming languages in general.
+
+A programming linguist is basically a very-well-versed polyglot
+programmer, one who can pick up a new language in a day if there is
+any good documentation for it
+
+### The goal
+
+The goal here isn't to learn and become an expert at all of the 500
+different programming languages. The goal is to be exposed to 500
+different programming languages, to glean a bit of knowledge, to open
+one's mind to new ways of looking at and solving problems, and to
+ultimately become a better programmer.
+
+It doesn't matter if after this, you never touch any of the 500
+languages ever again, just the act of coming to understand the
+language enough to write a program in it will have altered your mind
+enough to make a lasting impact, especially for languages which are
+different from the "norm" of what you are used to.
+
+<div class="pitch">Will you accept this challenge? <br /><br />
+If so, let me know in the comments or an email.<br /><br />
+If not, let me know why not. I'd love to hear from you either way.
+</div>
+

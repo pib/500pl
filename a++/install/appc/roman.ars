@@ -1,0 +1,36 @@
+(define roman 
+    (lambda(n)
+
+      (define iftrue
+          (lambda(b t)
+            (if b t zero)))
+
+      (define digit 
+          (lambda(loop num c)
+            (loop (gep n num) 
+               (lambda()
+                 (print c)
+                 (define n (sub n num))))))
+      (define digits
+          (lambda(loop num c1 c2)
+            (loop (gep n num)
+               (lambda()
+                 (print c1)
+                 (print c2)
+                 (define n (sub n num))))))
+
+      (define hundred (mult ten ten))
+
+      (digit  while   (mult ten hundred) 'M   )
+      (digits iftrue (mult nine hundred) 'C 'M)
+      (digit  iftrue (mult five hundred) 'D   )
+      (digits iftrue (mult four hundred) 'C 'D)
+      (digit  while              hundred 'C   )
+      (digits iftrue     (mult nine ten) 'X 'C)
+      (digit  iftrue     (mult five ten) 'L   )
+      (digits iftrue     (mult four ten) 'X 'L)
+      (digit  while                  ten 'X   )
+      (digits iftrue                nine 'I 'X)
+      (digit  iftrue                five 'V   )
+      (digits iftrue                four 'I 'V)
+      (digit  while                  one 'I   )))

@@ -1,0 +1,207 @@
+;;;; Basic A++ abstractions.
+;
+(define true   (lambda (x y) 
+                 x))
+(define false  (lambda (x y) 
+                 y))
+(define if     (lambda (b t f) 
+                 (b t f)))
+(define not    (lambda (b) 
+                 (b false true )))
+(define and    (lambda (x y) 
+                 (if x y x)))
+(define or     (lambda (x y) 
+                 (if x x y)))
+(define equaln (lambda (m n) 
+                 (and (zerop (sub m n))
+                      (zerop (sub n m))))) 
+(define gtp    (lambda (m n) 
+                 (not (zerop (sub m n)))))
+(define ltp    (lambda (m n) 
+                 (not (zerop (sub n m)))))
+(define gep    (lambda (m n) 
+                 (zerop (sub n m))))
+(define cons   (lambda (x y) 
+                 (lambda (f) 
+                   (f x y))))
+(define car    (lambda (l) 
+                 (l true)))
+(define cdr    (lambda (l) 
+                 (l false)))
+(define length (lambda (l) 
+                 (if (nullp l) 
+                     zero
+                     (add one (length (cdr l))))))
+(define zero   (lambda (f) 
+                 (lambda (x) 
+                   x)))
+(define one    (lambda (f) 
+                 (lambda (x) 
+                   (f x))))
+(define two    (lambda (f) 
+                 (lambda (x) 
+                   (f (f x)))))
+(define three  (lambda (f) 
+                 (lambda (x) 
+                   (f (f (f x))))))
+(define compose (lambda (f g)
+                  (lambda (x) 
+                    (f (g x)))))
+(define add    (lambda (m n)
+                 (lambda (f) 
+                   (compose (m f) (n f)))))
+(define succ   (lambda (n) 
+                 (lambda (f) 
+                   (compose  f (n f)))))
+(define mult   (lambda (m n)
+                 (compose m n)))
+(define zeropair (cons zero zero))
+(define pred   (lambda (n) 
+                 (cdr ((n (lambda (x) 
+                            (cons (add (car x) one)
+                                  (car x))))
+                       zeropair))))
+(define sub    (lambda (m n)
+                 ((n pred) m)))
+(define zerop  (lambda (n)
+                 ((n (lambda(x) false)) true)))
+
+
+(define nil    (lambda (l)
+                 true))
+
+(define nullp  (lambda (l)
+                 (l (lambda (a d)
+                      false))))
+
+(define curry  (lambda(f)
+                 (lambda(x)
+                   (lambda(y)
+                     (f x y)))))
+
+(define map    (lambda(f l)
+                 (if (nullp l)
+                     nil
+                     (cons (f (car l)) (map f (cdr l))))))
+
+(define filter (lambda(p l)
+                 (if (nullp l)
+                     nil
+                     (if (p (car l))
+                         (cons (car l) (filter p (cdr l)))
+                         (filter p (cdr l))))))
+
+(define locate (lambda(pred l)
+                 (if (nullp l)
+                     false
+                     (if (pred (car l))
+                         true
+                         (locate pred (cdr l))))))
+
+(define locatex (lambda(pred l)
+                  (if (nullp l)
+                      false
+                      (if (pred (car l))
+                          (car l)
+                          (locatex pred (cdr l))))))
+
+(define remove (lambda(obj l)
+                 (if (nullp l)
+                     nil
+                     (if (equal obj (car l))
+                         (remove obj (cdr l))
+                         (cons (car l)  (remove obj (cdr l)))))))
+
+(define mapc   (curry map))
+(define succ*  (mapc succ))
+
+(define addelt (lambda(x s)
+                 (if (memberp x s)
+                     s
+                     (cons x s))))
+
+(define union  (lambda(s1 s2)
+                 (if (nullp s1) 
+                     s2
+                     (if (memberp (car s1) s2) 
+                         (union (cdr s1) s2)
+                         (cons (car s1) (union (cdr s1) s2))))))
+
+(define memberp (lambda(x s)
+                  (if (nullp s)
+                      false
+                      (if (equaln x (car s))
+                          true
+                          (memberp x (cdr s))))))
+
+(define insert (lambda(x l)
+                 (if (nullp l)
+                      (cons x nil)
+                      (if (ltp x (car l))
+                          (cons x l)
+                          (cons (car l) (insert x (cdr l)))))))
+
+(define insertion-sort (lambda(l)
+                         (if (nullp l)
+                             nil
+                             (insert (car l) (insertion-sort (cdr l))))))
+
+(define sum (lambda(l)
+              (if (nullp l)
+                  zero
+                  (add (car l) (sum (cdr l))))))
+
+(define ndisp! (lambda (n)
+                 (print ((n incr) vmzero))))
+
+(define bdisp! (lambda (b)
+                 (print (b vmtrue vmfalse))))
+
+(define ldisp! (lambda (l)
+                 (if (nullp l) 
+                     nil
+                     ((lambda()
+                        (ndisp! (car l))
+                        (ldisp! (cdr l)))))))
+;;;;;;;; extensions and applications
+;;;;;;;;
+;;;;;
+(define four   (succ three))
+(define five   (succ four))
+(define six    (mult two three))
+(define seven  (add three four))
+(define eight  (add four four))
+(define nine   (add four five))
+(define ten    (add five five))
+
+(define while  (lambda(c body)
+                 (define loop
+                   (lambda()
+                     (if c
+                         ((lambda()
+                            (body)
+                            (loop)))
+                         false)))
+                 (loop)))
+
+(define faculty (lambda(n)
+                  (if (equaln n one)
+                      one
+                      (mult n (faculty (sub n one))))))
+
+(define fac (lambda(n)
+                  (if (equal n 1)
+                      1
+                      (* n (fac (- n 1))))))
+
+(define nth    (lambda(n l)
+                 (if (equaln n one)
+                     (car l)
+                     (nth (sub n one) (cdr l)))))
+
+(define for-each (lambda(procedure lis)
+                   (if (nullp lis)
+                       true
+                       ((lambda()
+                          (procedure (car lis))
+                          (for-each procedure (cdr lis)))))))

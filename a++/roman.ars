@@ -1,0 +1,113 @@
+(define roman 
+    (lambda(n)
+
+      (define iftrue
+          (lambda(b t)
+            (if b t zero)))
+
+      (define digit 
+          (lambda(loop num c)
+            (loop (gep n num) 
+               (lambda()
+                 (print c)
+                 (define n (sub n num))))))
+      (define digits
+          (lambda(loop num c1 c2)
+            (loop (gep n num)
+               (lambda()
+                 (print c1)
+                 (print c2)
+                 (define n (sub n num))))))
+
+      (define hundred (mult ten ten))
+
+      (digit  while   (mult ten hundred) 'M   )
+      (digits iftrue (mult nine hundred) 'C 'M)
+      (digit  iftrue (mult five hundred) 'D   )
+      (digits iftrue (mult four hundred) 'C 'D)
+      (digit  while              hundred 'C   )
+      (digits iftrue     (mult nine ten) 'X 'C)
+      (digit  iftrue     (mult five ten) 'L   )
+      (digits iftrue     (mult four ten) 'X 'L)
+      (digit  while                  ten 'X   )
+      (digits iftrue                nine 'I 'X)
+      (digit  iftrue                five 'V   )
+      (digits iftrue                four 'I 'V)
+      (digit  while                  one 'I   )))
+
+(define reverse
+    (lambda(l)
+      (reverse-r l nil)))
+
+(define reverse-r
+    (lambda(l acc)
+      (if (nullp l)
+          acc
+          (reverse-r (cdr l) (cons (car l) acc)))))
+
+(define sldisp! (lambda (l)
+                  (if (nullp l) 
+                      nil
+                      ((lambda()
+                         (print (car l))
+                         (sldisp! (cdr l)))))))
+
+(define l1
+    (lambda(item)
+      (cons item (cons nil nil))))
+
+(define l2
+    (lambda(item1 item2)
+      (cons item1 (cons item2 nil))))
+
+(define froman
+    (lambda(n)
+      (define digit
+          (lambda(n parts acc)
+            (print n)
+            (if (nullp parts)
+                acc
+                ((lambda() 
+                  (define line (car parts))
+                  (define num (car line))
+                  (define chars (cdr line))
+                  (print "About to print num")
+                  (ndisp! num)
+            
+                  (if (gep n num)
+                      (if (nullp (cdr chars))
+                          (digit (sub n num) parts (cons (car chars) acc))
+                          (digit (sub n num) parts (cons (cdr chars) (cons (car chars) acc))))
+                      (digit n (cdr parts) acc)))))))
+
+      (define hundred (mult ten ten))
+
+      (digit n 
+             (cons 
+              (cons (mult ten hundred) (cons 'M nil))
+              (cons 
+               (cons (mult nine hundred) (cons 'C 'M))
+               (cons 
+                (cons (mult five hundred) (cons 'D nil))
+                (cons 
+                 (cons (mult four hundred) (cons 'C 'D))
+                 (cons 
+                  (cons hundred (cons 'C nil))
+                  (cons 
+                   (cons (mult nine ten) (cons 'X 'C))
+                   (cons 
+                    (cons (mult five ten) (cons 'L nil))
+                    (cons 
+                     (cons (mult four ten) (cons 'X 'L))
+                     (cons 
+                      (cons ten (cons 'X nil))
+                      (cons 
+                       (cons nine (cons 'I 'X))
+                       (cons 
+                        (cons five (cons 'V nil))
+                        (cons 
+                         (cons four (cons 'I 'V))
+                         (cons 
+                          (cons one (cons 'I nil)) 
+                          nil))))))))))))) nil)))
+  

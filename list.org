@@ -1116,6 +1116,9 @@
 * PLOT
   [[http://users.rcn.com/david-moon/PLOT/]]
 
+* PLT Scheme
+  [[http://plt-scheme.org/][PLT Scheme home]]
+
 * PPL
 
 * POP-11
@@ -1296,6 +1299,9 @@
 
 * Tea
 
+* Termite
+  [[http://code.google.com/p/termite/][Termite on google code]]
+
 * TIE
 
 * Tcl
@@ -1332,6 +1338,9 @@
 * Unlambda
 
 * UnrealScript
+
+* Ur
+  [[http://www.impredicative.com/ur/][Ur home page]]
 
 * Vala
 
