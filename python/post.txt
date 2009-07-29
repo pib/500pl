@@ -1,0 +1,157 @@
+Python is one of my favorite programming languages. It's almost always
+the first one that I reach for when I have a programming task I'd like
+to try out, and often enough, it's the final language of that task,
+too.
+
+### Introduction to Python
+
+On the [official Python website](http://python.org/), Python is
+described as "a dynamic object-oriented programming languages that can
+be used for many kinds of software development."
+
+They also claim that "Many Python programmers report substantial
+productivity gains and feel the language encourages the development of
+higher quality, more maintainable code."
+
+I am inclined to agree.
+
+Though Python is a true "everything is an object" OO language, you can
+do more than just Object-Oriented programming with it. You can do
+plain-ol' procedural programming, functional programming,
+Object-Oriented programming, and probably some other types of
+programming if you wanted.
+
+There are many, [more thorough introductions to
+Python](http://docs.python.org/tutorial/index.html) out there, so I
+won't attempt to cover the language in too much more depth, but I will
+show you a couple of things that really capture the spirit of Python:
+
+<pre lang="python">
+Python 2.6.2 (release26-maint, Apr 19 2009, 01:58:18) 
+[GCC 4.3.3] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from __future__ import braces
+  File "<stdin>", line 1
+SyntaxError: not a chance
+>>> import this
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+>>> import __hello__
+Hello world...
+>>> 
+</pre>
+
+### My <del>First</del> Python Program
+
+For this program, I implemented a
+[Brainfuck](http://en.wikipedia.org/wiki/Brainfuck)-to-Python
+compiler. I won't go into Brainfuck right now because I will be doing
+a post on it tomorrow.
+
+This program is nowhere near demonstrating all of, or even a large
+number of, Python's features, but it does demonstrate how easy it is
+to write a quick-and-easy program. 
+
+I threw this compiler together in less than 5 minutes, and it
+functioned properly on my first try (the [Brainfuck hello world from
+Wikipedia](http://en.wikipedia.org/wiki/Brainfuck#Hello_World.21)).
+
+The only addition I had to make later was handling the case of
+end-of-file on the input.
+
+<pre lang="python">
+def compile(program):
+    indent = 4
+    code = [
+        'def compiled(input=None, output=None):',
+        '    import sys',
+        '    if not input: input = sys.stdin',
+        '    if not output: output = sys.stout',
+        '    i = 0',
+        '    a = [0]*30000'
+        ]
+    commands = {
+        '>': 'i += 1',
+        '<': 'i -= 1',
+        '+': 'a[i] += 1',
+        '-': 'a[i] -= 1',
+        '.': 'output.write(chr(a[i]))',
+        ',': 'a[i] = ord(input.read(1) or "\0")',
+        '[': 'while a[i]:',
+        ']': ''
+        }
+    for command in program:
+        line = commands.get(command, None)
+        if line: code.append((' ' * indent) + line)
+
+        if command == '[':   indent += 4
+        elif command == ']': indent -= 4
+    exec '\n'.join(code)
+    return compiled
+</pre>
+
+This function takes a string containing BF code as its one argument
+and returns a function which will run that code when called. 
+
+The function returned will have two optional arguments, input and
+output, which are expected to be file-like objects (at least
+implementing read and write, respectively), which allows for passing
+in specific input and/or handling the output from within a python
+program.
+
+You can [download the Brainfuck-to-Python Compiler][xprog] if you'd like.
+
+[xprog]:
+
+
+**continue on to learn more about X**
+
+<!--more-->
+
+### Anatomy of a Python program
+
+Python is organized in modules and (optionally) packages. A module is
+simply a file which contains some amount of Python code. A package is
+simply a directory which contains some number of modules.
+
+You can import modules with the *import* statement, which runs the
+code in the module, and then imports any objects the module defines
+into the current context (generally under some namespace, see the
+[Python Modules
+documentation](http://docs.python.org/tutorial/modules.html) for more
+details on the import statement).)
+
+The code in a module can be at the module-level, outside of any
+functions, or it can be contained in functions and classes. Code at
+the module level is run immediately when the module is imported.
+
+### Installing X
+
+
+### Running X
+
+
+### Learning more about X
+
+
+### Conclusion
+

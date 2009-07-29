@@ -14,7 +14,7 @@ def compile(program):
         '+': 'a[i] += 1',
         '-': 'a[i] -= 1',
         '.': 'output.write(chr(a[i]))',
-        ',': 'a[i] = ord(input.read(1))',
+        ',': 'a[i] = ord(input.read(1) or "\0")',
         '[': 'while a[i]:',
         ']': ''
         }
@@ -26,3 +26,18 @@ def compile(program):
         elif command == ']': indent -= 4
     exec '\n'.join(code)
     return compiled
+
+def cmd_line():
+    import sys
+    if len(sys.argv) < 2:
+        print('usage: %s bf_file\n' % sys.argv[0])
+    else:
+        try:
+            with file(sys.argv[1]) as f:
+                bf_fn = compile(f.read())
+        except IOError, msg:
+            print("couldn't read file %s: %s\n" % (sys.argv[1], msg))
+
+        bf_fn()
+
+if __name__ == '__main__': cmd_line()
