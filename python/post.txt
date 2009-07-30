@@ -144,6 +144,21 @@ The code in a module can be at the module-level, outside of any
 functions, or it can be contained in functions and classes. Code at
 the module level is run immediately when the module is imported.
 
+For short scripts, it's usually fine to write code at the module
+level. For more complex modules, it's common practice to put all the
+code into functions, and then conditionally invoke that function if
+the module is run directly.
+
+For example, if I wanted to extend my BF compiler above to be invoked
+directly from the commandline, I would add the following code to the
+end of the bf module:
+
+<pre lang="python">
+def cmd_line():
+    import sys
+    if sys.argv < 2
+</pre>
+
 ### Installing X
 
 
