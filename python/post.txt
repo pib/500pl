@@ -85,7 +85,7 @@ def compile(program):
         'def compiled(input=None, output=None):',
         '    import sys',
         '    if not input: input = sys.stdin',
-        '    if not output: output = sys.stout',
+        '    if not output: output = sys.stdout',
         '    i = 0',
         '    a = [0]*30000'
         ]
@@ -123,11 +123,13 @@ You can [download the Brainfuck-to-Python Compiler][xprog] if you'd like.
 [xprog]:
 
 
-**continue on to learn more about X**
+**continue on to learn more about Python**
 
 <!--more-->
 
 ### Anatomy of a Python program
+
+#### Modules
 
 Python is organized in modules and (optionally) packages. A module is
 simply a file which contains some amount of Python code. A package is
@@ -149,20 +151,54 @@ level. For more complex modules, it's common practice to put all the
 code into functions, and then conditionally invoke that function if
 the module is run directly.
 
-For example, if I wanted to extend my BF compiler above to be invoked
-directly from the commandline, I would add the following code to the
-end of the bf module:
+For example, to extend my BF compiler above to be invoked directly
+from the commandline, I added the following code to the end of the bf
+module:
 
 <pre lang="python">
+
 def cmd_line():
     import sys
-    if sys.argv < 2
+    if len(sys.argv) < 2:
+        print('usage: %s bf_file\n' % sys.argv[0])
+    else:
+        try:
+            with file(sys.argv[1]) as f:
+                bf_fn = compile(f.read())
+        except IOError, msg:
+            print("couldn't read file %s: %s\n" % (sys.argv[1], msg))
+
+        bf_fn()
+
+if __name__ == '__main__': cmd_line()
 </pre>
 
-### Installing X
+The cmd_line function is just a regular function. The real magic
+happens on the last line there. At the module level, __name__ will be
+set to "__main__" if the current module is the one which was run
+directly.
 
+If a module is imported from any other module, __name__ is set to the
+name of the module.
 
-### Running X
+#### Python Shell
+
+You can also run Python code directly, one line at a time, from the
+python shell. The shell comes up if you just run Python directly
+without specifying a module for it to run.
+
+Python makes a great calculator, random-number picker, interactive
+prototyping tool, etc.
+
+Often when I'm playing around with an idea for how to do something,
+I'll just open up the Python shell and play around until I get it
+working how I'd like, then I will commit the code to an actual file.
+
+### Installing and Running Python
+
+There's a nice [guide to installing and running
+Python](http://docs.python.org/using/index.html) on various systems at
+Python.org, so I won't spend time repeating what they've got there.
 
 
 ### Learning more about X

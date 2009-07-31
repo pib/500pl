@@ -4,7 +4,7 @@ def compile(program):
         'def compiled(input=None, output=None):',
         '    import sys',
         '    if not input: input = sys.stdin',
-        '    if not output: output = sys.stout',
+        '    if not output: output = sys.stdout',
         '    i = 0',
         '    a = [0]*30000'
         ]
@@ -41,3 +41,4 @@ def cmd_line():
         bf_fn()
 
 if __name__ == '__main__': cmd_line()
+
