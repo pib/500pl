@@ -1,0 +1,31 @@
+### Introduction to X
+
+### My First X Program
+
+<pre lang="x">
+
+</pre>
+
+You can [download the X program][xprog] if you'd like.
+
+[xprog]:
+
+
+**continue on to learn more about X**
+
+<!--more-->
+
+### Anatomy of an X
+
+
+### Installing X
+
+
+### Running X
+
+
+### Learning more about X
+
+
+### Conclusion
+

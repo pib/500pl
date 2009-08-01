@@ -226,6 +226,8 @@
 ** Links
    [[http://inside.mines.edu/fs_home/tcamp/baci/][BACI home]]
 
+* Baltie 3
+
 * BASIC
 ** Links
    [[http://en.wikipedia.org/wiki/BASIC][BASIC Wikipedia]]

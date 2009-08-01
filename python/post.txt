@@ -21,6 +21,17 @@ plain-ol' procedural programming, functional programming,
 Object-Oriented programming, and probably some other types of
 programming if you wanted.
 
+One of the nicest things about Python is the "batteries included"
+approach, which means that Python comes with a ton of modules that do
+a large amount of what you want to do, right out of the box (or
+tarball, or installer...I don't know if you can actually get Python in
+a box). Does your app need to write a [cgi app](http://docs.python.org/library/cgi.html)?
+Or even better, a [wsgi app](http://docs.python.org/library/wsgiref.html)?
+[Web](http://docs.python.org/library/httplib.html) [client](http://docs.python.org/library/urllib2.html)?
+[Web server?](http://docs.python.org/library/simplehttpserver.html)? 
+
+Yep, it has all those, and many, many more.
+
 There are many, [more thorough introductions to
 Python](http://docs.python.org/tutorial/index.html) out there, so I
 won't attempt to cover the language in too much more depth, but I will
@@ -62,10 +73,21 @@ Hello world...
 
 ### My <del>First</del> Python Program
 
+This is far from my first program in Python. I first discovered Python
+when I was in High School, so possibly as early as 1999-2000. I had
+discovered [Blender, a free 3D editing
+application](http://www.blender.org/), and it had Python embedded
+within it, for use in creating extensions and scripting games for the
+built-in game engine. Back then, I still thought I was going to be a
+video game developer, so I made some effort to learn Python so I could
+write games in Blender.
+
+Anyway, enough history. :)
+
 For this program, I implemented a
 [Brainfuck](http://en.wikipedia.org/wiki/Brainfuck)-to-Python
 compiler. I won't go into Brainfuck right now because I will be doing
-a post on it tomorrow.
+a post on it next.
 
 This program is nowhere near demonstrating all of, or even a large
 number of, Python's features, but it does demonstrate how easy it is
@@ -117,6 +139,16 @@ output, which are expected to be file-like objects (at least
 implementing read and write, respectively), which allows for passing
 in specific input and/or handling the output from within a python
 program.
+
+It's kind of a dirty way to do it, building Python source, an then
+running it with *exec*, but it gets the job done. I could also save
+the function to a compiled .pyc file, so you could later import it
+directly, but that would require a bit more code and ruin the
+simplicity of it all. I could also have generated input for my [Python
+assembler](http://probablyprogramming.com/2008/04/18/ppya-python-assembler/),
+and used that to generate a compiled .pyc file, but like I said, I was
+going for simplicity here, and encouraging people to learn Python, not
+necessarily Python bytecodes.
 
 You can [download the Brainfuck-to-Python Compiler][xprog] if you'd like.
 
@@ -201,8 +233,22 @@ Python](http://docs.python.org/using/index.html) on various systems at
 Python.org, so I won't spend time repeating what they've got there.
 
 
-### Learning more about X
+### Learning more about Python
+
+A good place to start is [the Python
+tutorial](http://docs.python.org/tutorial/), and there's a lot to
+learn from the links on the [Python
+Documentation](http://python.org/doc/) page.
 
 
 ### Conclusion
 
+Python is a great language, for both new programmers and experienced
+programmers who want to try a language that is probably way nicer than
+what they're used to programming in, especially if what you're used to
+programming in is PHP. Heck, even [Terry Chay recommends Python as a
+learning
+language](http://terrychay.com/blog/article/learning-programming.shtml),
+and he's known to be a [strong supporter of PHP](http://terrychay.com/blog/article/category/web-development/php).
+
+In conclusion, if you haven't yet, give Python a try. You won't regret it!
