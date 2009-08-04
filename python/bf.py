@@ -1,4 +1,4 @@
-def compile(program):
+def compile(program, debug=False):
     indent = 4
     code = [
         'def compiled(input=None, output=None):',
@@ -16,25 +16,31 @@ def compile(program):
         '.': 'output.write(chr(a[i]))',
         ',': 'a[i] = ord(input.read(1) or "\0")',
         '[': 'while a[i]:',
-        ']': ''
+        ']': 'pass',
+        '!': 'print a[i]' # for debugging
         }
     for command in program:
         line = commands.get(command, None)
-        if line: code.append((' ' * indent) + line)
+        if line: 
+            code.append((' ' * indent) + line)
+            if command == '[':   indent += 4
+            elif command == ']': indent -= 4
+            if debug: code.append((' ' * indent) + 'print "i:", i, a[0:10]')
 
-        if command == '[':   indent += 4
-        elif command == ']': indent -= 4
+    if debug: print '\n'.join(code)
     exec '\n'.join(code)
     return compiled
 
 def cmd_line():
     import sys
     if len(sys.argv) < 2:
-        print('usage: %s bf_file\n' % sys.argv[0])
+        print('usage: %s bf_file [-debug]\n' % sys.argv[0])
     else:
+        if len(sys.argv) > 2: debug = True
+        else: debug = False
         try:
             with file(sys.argv[1]) as f:
-                bf_fn = compile(f.read())
+                bf_fn = compile(f.read(), debug)
         except IOError, msg:
             print("couldn't read file %s: %s\n" % (sys.argv[1], msg))
 

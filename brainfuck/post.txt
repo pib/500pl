@@ -1,6 +1,44 @@
-### Introduction to X
+### Introduction to brainfuck
 
-### My First X Program
+brainfuck is an esoteric programming language based on the idea of
+making a language with the smallest possible compiler. Indeed, [my
+Python brainfuck
+compiler](http://probablyprogramming.com/2009/08/01/500-programming-languages-python/)
+is only 30 lines of Python code, and I'm sure there are some
+optimizations I could have done to make it shorter if that was my goal
+with the whole thing.
+
+The only data structure you get is a single array (if it were infinite
+you'd have a good representation of a turing machine), and all you can
+do is move around this array with a pointer, increment and decrement
+values, input and output values, and loop.
+
+The entire language consists of 8 commands:
+
+- **>** move the pointer forward one cell
+- **<** move the pointer back one cell
+- **+** increment the current cell
+- **-** decrement the current cell
+- **.** output the byte in the current cell
+- **,** input a byte into the current cell
+- **[** move to the matching **]** if the current cell is zero
+- **]** loop back to the matching **[** if the current cell is non-zero
+
+That's really all there is to the language. There are a couple of
+areas of behavior that aren't standardized between interpreters,
+relating to the size of the array, the cell size, and handling
+end-of-file when inputing. Those are covered in more detail on the
+[brainfuck wikipedia](http://en.wikipedia.org/wiki/Brainfuck) page.
+
+So, since this is such a simple language (to comprehend, not to write
+in), and I already provided a working compiler in my previous post,
+I'm going to do this post a little differently, and just cover the
+process I went through in writing my first non-trivial brainfuck
+program.
+
+### The idea
+
+
 
 <pre lang="x">
 
