@@ -14,7 +14,7 @@ def compile(program, debug=False):
         '+': 'a[i] += 1',
         '-': 'a[i] -= 1',
         '.': 'output.write(chr(a[i]))',
-        ',': 'a[i] = ord(input.read(1) or "\0")',
+        ',': 'a[i] = ord(input.read(1) or "\\0")',
         '[': 'while a[i]:',
         ']': 'pass',
         '!': 'print a[i]' # for debugging
@@ -25,7 +25,7 @@ def compile(program, debug=False):
             code.append((' ' * indent) + line)
             if command == '[':   indent += 4
             elif command == ']': indent -= 4
-            if debug: code.append((' ' * indent) + 'print "i:", i, a[0:10]')
+            if debug: code.append((' ' * indent) + 'print "' + command + ' i:", i, a[0:10]')
 
     if debug: print '\n'.join(code)
     exec '\n'.join(code)
